@@ -5,7 +5,7 @@ class UIController:
   drawables = {}
 
   def __init__(self, font):
-    UIController.screen = pygame.display.set_mode((750, 500))
+    UIController.screen = pygame.display.set_mode((500, 750))
     UIController.font = font
 
   @staticmethod
